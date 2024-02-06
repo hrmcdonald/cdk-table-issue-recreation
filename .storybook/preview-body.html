@@ -1,0 +1,9 @@
+<script>
+  function setColorScheme(document) {
+    const colorScheme = localStorage.getItem('mte.theme.global-color-scheme');
+    if (colorScheme) {
+      document.documentElement.setAttribute('mte-color-scheme', colorScheme);
+    }
+  }
+  setColorScheme(document);
+</script>

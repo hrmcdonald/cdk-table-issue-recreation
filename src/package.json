@@ -1,0 +1,21 @@
+{
+  "name": "@mortar/angular",
+  "description": "",
+  "version": "16.3.5",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/heb-engineering/teams/enterprise/sco/mortar/px-dls-mortar"
+  },
+  "scripts": {},
+  "dependencies": {},
+  "peerDependencies": {
+    "@angular/animations": ">= 17.0.0",
+    "@angular/common": ">= 17.0.0",
+    "@angular/core": ">= 17.0.0",
+    "@angular/cdk": ">= 17.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://hebdigital.jfrog.io/hebdigital/api/npm/npm/"
+  }
+}
