@@ -128,7 +128,7 @@ export class MtrTable<T> extends CdkTable<T> implements AfterContentInit {
     }
   });
 
-  ngAfterContentInit(): void {
+  override ngAfterContentInit(): void {
     this.markInitialized();
   }
 
